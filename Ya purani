@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head><title>login from</title>
+<style>
+p{color:"yellow";}
+label{color:"green";}
+body{back ground-color:"white";}
+fieldset{
+margin-right:30%;
+margin-left:30%;
+back ground-color:"black";
+}
+</style>
+</head>
+<body>
+<fieldset>
+<center><legend><b>CREAT ACCOUNT</b></legend></center>
+<form>
+<label>First name:</label><input type="text"name="First name" place holder="First name"><br><br>
+<label>last name:</label><input type="text"name="last name"><br><br>
+<label>user name:</label><input type="text"name="user name"><br><br>
+<label>passwar:</label><input type="passward"name="passward"><br><br>
+<label>telephon:</label><input type="tel"name="tel"><br><br>
+<label>Email:</label><input type="email"name="e-mail"><br><br>
+<label>bith date:</label><input type="date"name="date"><br><br>
+<label>Natoinality</label>
+<select name="counter">
+<option value"RWANDA"selected>RWANDA</opion>
+<option value"TANZANIA">TANZANIA</opion>
+<option value"DRC">DRC</opion>
+<option value"BURUNDI">BURUNDI</opion>
+</select><br><br> 
+Favourite color<input type="color"name="fl">
+<p>GENDER</p><br>
+<input type="radio"name="radio">Male<br>
+<input type="radio"name="radio">Female<br><br>
+<input type="submit"name="button"value="submit">
+<input type="reset"name="button"value="cancel">
+</form>
+</fieldset>
+</body>
+</html>
